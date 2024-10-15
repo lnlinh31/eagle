@@ -1,0 +1,16 @@
+backend/__pycache__/
+backend/venv
+backend/.env
+backend/test.py
+backend/api/test_data.json
+backend/api/__pycache__/
+backend/backup.py
+
+deploy/
+frontend/node_modules
+.vscode/
+
+reload.sh
+setup.sh
+
+.DS_Store

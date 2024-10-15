@@ -1,0 +1,4 @@
+domain,rootDomain,tag
+54.148.239.155,ip,bugbounty
+google.com,self,bugbounty|wildcard
+52.25.17.245,ip,bugbounty

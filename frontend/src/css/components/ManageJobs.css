@@ -1,0 +1,82 @@
+/* Styles for ManageJobs */
+.manage-jobs-container {
+    background-color: white; 
+    padding: 20px;
+  }
+  
+  .jobs-table {
+    width: 100%;
+    border-collapse: collapse; 
+  }
+  
+  .jobs-table th, .jobs-table td {
+    border-bottom: 1px solid #b1b1b1; 
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .jobs-table tbody tr:hover {
+    background-color: #f2f2f2; 
+    color: black; 
+  }
+  
+  .tag-label {
+    display: inline-block;
+    background-color: #e0e0e0;
+    color: #333;
+    padding: 5px 10px;
+    margin: 2px;
+    border-radius: 5px;
+    font-size: 0.9em;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .pagination button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  .pagination button.active {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+  }
+  
+  .pagination-options {
+    margin: 10px 0;
+  }
+
+  .search-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+  }
+  
+  .search-form input {
+    padding: 5px;
+    font-size: 1em;
+  }
+  
+  .search-form button {
+    padding: 5px 10px;
+    font-size: 1em;
+    background-color: #357eab;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
+  }
+  
+  .search-form button:hover {
+    background-color: #5d316e; 
+  }
+  
